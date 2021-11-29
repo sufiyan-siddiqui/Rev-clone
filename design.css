@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+html{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 62.5%; transition: all 0.4s ease-in-out;}
+/* **************************************************************************************************************************************** */
+header img{width: 14rem;}
+header{
+    position: fixed;
+    top: 7.5%;
+    left: 12.5%;
+}
+nav a{font-size: 1.6rem; text-decoration: none; color: black;  font-weight: 700;}
+nav a.infof span{
+    width: 100%;
+    height: 0.15rem;
+    position: absolute;
+    top: 78%;
+    left: 0%;
+    transform-origin: right;
+    background-color: black;
+    display: block;
+    transform: scaleX(0);
+    transition: all 0.6s ease;  }
+nav a.infof:hover span{transform: scaleX(1); cursor: pointer;}
+nav a.projf{text-decoration: line-through; cursor: pointer;}
+/* nav a.infof:hover{text-decoration: line-through;} */
+nav{
+    line-height: 3rem;
+    position: fixed;
+    top: 8%;
+    right: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;   }
+.emailf{font-size: 2rem; font-weight: 700;
+    position: fixed;
+    top: 65%;
+    right: 14%; }
+.emailf span{display: block; background-color: black; font-weight: 900;
+    position: absolute;
+    bottom: -0.3rem;
+    left: 0;
+    width: 100%;
+    height: 0.15rem;
+    transform-origin: left;
+    transform: scaleX(1);
+    transition: all 0.6s ease;  }
+.emailf:hover{cursor:pointer;}
+.emailf:hover span{transform: scaleX(0);
+}
+/* **************************************************************************************************************************************** */
+.rev{
+    font-size: 13rem; font-weight: 800;
+    color: rgb(10, 10, 10);
+    position: absolute;
+    top: 50%;
+    left: 12%; pointer-events: none;}
+#changing{ font-size: 13rem; font-weight: 800; color: rgb(10, 10, 10);
+    position: absolute;
+    top: 70%;
+    left: 12%; pointer-events: none;
+}
+/* **************************************************************************************************************************************** */
+.berber{
+    width: 17vw;
+    height: 44vh;
+    position: absolute;
+    top: 19rem;
+    left: 58rem;
+    overflow: hidden;
+}
+.berber img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+.berber:hover img{margin: -8%; width: 120%; height: 120%;
+}
+.berber:hover span{
+    width: 100%; height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    cursor: pointer;
+    z-index: 3;
+    position: absolute; 
+}
+.berber section{position: absolute; z-index: 4; font-size: 1.5rem; margin: 10%; color: azure; height: 100%; width: 100%; opacity: 0; transition: all 0.6s ease;}
+.berber section h3{font-weight: 800;} 
+.berber section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+.berber section h4 {
+    position: absolute;
+    top: 75%;   }
+.berber section h5 {
+    position: absolute;
+    top: 80%;
+    font-weight: 800;
+    transform: scaleX(0.3);
+    transform-origin: left; transition: all 0.5s ease;  }
+.berber:hover section{opacity: 1; cursor: pointer;}
+ .berber:hover section h5 {transform: scaleX(1); pointer-events: none;
+}
+
+.tutorials{
+    width: 24vw;
+    height: 55vh;
+    position: absolute;
+    top: 49rem;
+    left: 87rem;
+     
+    overflow: hidden;
+}
+.tutorials img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+.tutorials:hover img{margin: -8%; width: 120%; height: 120%;
+}
+.tutorials:hover span{
+    width: 100%; height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    cursor: pointer;
+    z-index: 3;
+    position: absolute; 
+}
+.tutorials section{position: absolute; z-index: 4; font-size: 1.5rem; margin: 10%; color: azure; height: 100%; width: 100%; opacity: 0; transition: all 0.6s ease;}
+.tutorials section h3{font-weight: 800;} 
+.tutorials section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+.tutorials section h4 {
+    position: absolute;
+    top: 75%;   }
+.tutorials section h5 {
+    position: absolute;
+    top: 80%;
+    font-weight: 800;
+    transform: scaleX(0.3);
+    transform-origin: left; transition: all 0.5s ease;  }
+.tutorials:hover section{opacity: 1; cursor: pointer;}
+ .tutorials:hover section h5 {transform: scaleX(1); pointer-events: none;
+}
+
+.hand{
+    width: 17vw;
+    height: 44vh;
+    position: absolute;
+    top: 81rem;
+    left: 27rem;    
+    overflow: hidden;
+}
+.hand img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+.hand:hover img{margin: -8%; width: 120%; height: 120%;
+}
+.hand:hover span{
+    width: 100%; height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    cursor: pointer;
+    z-index: 3;
+    position: absolute; 
+}
+.hand section{position: absolute; z-index: 4; font-size: 1.5rem; margin: 10%; color: azure; height: 100%; width: 100%; opacity: 0; transition: all 0.6s ease;}
+.hand section h3{font-weight: 800;} 
+.hand section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+.hand section h4 {
+    position: absolute;
+    top: 75%;   }
+.hand section h5 {
+    position: absolute;
+    top: 80%;
+    font-weight: 800;
+    transform: scaleX(0.3);
+    transform-origin: left; transition: all 0.5s ease;  }
+.hand:hover section{opacity: 1; cursor: pointer;}
+ .hand:hover section h5 {transform: scaleX(1); pointer-events: none;
+}
+
+.book{
+    width: 17.2vw;
+    height: 44vh;
+    position: absolute;
+    top: 131rem;
+    left: 87rem;
+    overflow: hidden;
+}
+.book img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+.book:hover img{margin: -8%; width: 120%; height: 120%;
+}
+.book:hover span{
+    width: 100%; height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    cursor: pointer;
+    z-index: 3;
+    position: absolute; 
+}
+.book section{position: absolute; z-index: 4; font-size: 1.5rem; margin: 10%; color: azure; height: 100%; width: 100%; opacity: 0; transition: all 0.6s ease;}
+.book section h3{font-weight: 800;} 
+.book section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+.book section h4 {
+    position: absolute;
+    top: 75%;   }
+.book section h5 {
+    position: absolute;
+    top: 80%;
+    font-weight: 800;
+    transform: scaleX(0.3);
+    transform-origin: left; transition: all 0.5s ease;  }
+.book:hover section{opacity: 1; cursor: pointer;}
+ .book:hover section h5 {transform: scaleX(1); pointer-events: none;
+}
+
+.rotator{
+    width: 23vw;
+    height: 58vh;
+    position: absolute;
+    top: 128rem;
+    left: 47rem;
+    overflow: hidden;
+    background-color: rgb(246, 246, 246);
+    z-index: -2;
+}
+.rotator img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;
+ }
+.rotator #rot{animation: rotate 3s linear 10s infinite;}
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+.rotator:hover img{margin: -8%; width: 120%; height: 120%;
+}
+.rotator:hover span{
+    width: 100%; height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    cursor: pointer;
+    z-index: 3;
+    position: absolute; 
+}
+.rotator section{position: absolute; z-index: 4; font-size: 1.5rem; margin: 10%; color: azure; height: 100%; width: 100%; opacity: 0; transition: all 0.6s ease;}
+.rotator section h3{font-weight: 800;} 
+.rotator section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+.rotator section h4 {
+    position: absolute;
+    top: 78%;   }
+.rotator section h5 {
+    position: absolute;
+    top: 83%;
+    font-weight: 900;
+    transform: scaleX(0.3);
+    transform-origin: left; transition: all 0.5s ease;  }
+.rotator:hover section{opacity: 1; cursor: pointer;}
+ .rotator:hover section h5 {transform: scaleX(1); pointer-events: none;
+}
+
+.future{
+    width: 17.2vw;
+    height: 42vh;
+    position: absolute;
+    top: 171rem;
+    left: 29rem;
+    overflow: hidden;
+}
+.future img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+.future:hover img{margin: -8%; width: 120%; height: 120%;
+}
+.future:hover span{
+    width: 100%; height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    cursor: pointer;
+    z-index: 3;
+    position: absolute; 
+}
+.future section{position: absolute; z-index: 4; font-size: 1.5rem; margin: 10%; color: azure; height: 100%; width: 100%; opacity: 0; transition: all 0.6s ease;}
+.future section h3{font-weight: 800;} 
+.future section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+.future section h4 {
+    position: absolute;
+    top: 75%;   }
+.future section h5 {
+    position: absolute;
+    top: 80%;
+    font-weight: 800;
+    transform: scaleX(0.3);
+    transform-origin: left; transition: all 0.5s ease;  }
+.future:hover section{opacity: 1; cursor: pointer;}
+ .future:hover section h5 {transform: scaleX(1); pointer-events: none;
+}
+
+.last{
+    width: 23vw;
+    height: 58vh;
+    position: absolute;
+    top: 195rem;
+    left: 87rem;
+    overflow: hidden;
+}
+.last img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+.last:hover img{margin: -8%; width: 120%; height: 120%;
+}
+.last:hover span{
+    width: 100%; height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    cursor: pointer;
+    z-index: 3;
+    position: absolute; 
+}
+.last section{position: absolute; z-index: 4; font-size: 1.5rem; margin: 10%; color: azure; height: 100%; width: 100%; opacity: 0; transition: all 0.6s ease;}
+.last section h3{font-weight: 800;} 
+.last section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+.last section h4 {
+    position: absolute;
+    top: 78%;   }
+.last section h5 {
+    position: absolute;
+    top: 83%;
+    font-weight: 900;
+    transform: scaleX(0.3);
+    transform-origin: left; transition: all 0.5s ease;  }
+.last:hover section{opacity: 1; cursor: pointer;}
+ .last:hover section h5 {transform: scaleX(1); pointer-events: none;
+}
+/* **************************************************************************************************************************************** */
+.touch{
+    font-size: 10.5rem; font-weight: bolder; color: rgb(10, 10, 10);
+    position: absolute;
+    top: 250rem;
+    left: 18rem; pointer-events: none;
+}
+.email{
+    font-size: 3.5rem; font-weight: bolder; color: rgb(10, 10, 10);
+    position: absolute;
+    top: 278rem;
+    left: 18rem;
+    cursor: pointer;
+}
+/* **************************************************************************************************************************************** */
+footer{
+    font-weight: bolder; color: rgb(10, 10, 10);
+    display: flex; flex-direction: row;     }
+footer h3{ font-size: 1.3rem; 
+    position: absolute;
+    top: 295rem;
+    left: 18rem ;   }
+footer img{ width: 8rem; height: 8rem;
+    position: absolute;
+    top: 293rem;
+    left: 75rem;    }
+footer .foot a{font-size: 1.6rem; text-decoration: none; color: black;  font-weight: 700;}
+    .foot a.infof span{
+        width: 35%;
+        height: 0.15rem;
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform-origin: right;
+        background-color: black;
+        display: block;
+        transform: scaleX(0);
+        transition: all 0.6s ease;  }
+    .foot a.infof:hover span{transform: scaleX(1); cursor: pointer;}
+    .foot a.projf{text-decoration: line-through; cursor: pointer;}
+    /* foot a.infof:hover{text-decoration: line-through;} */
+    .foot{
+        width: 20vw;
+        position: absolute;
+        top: 295rem;
+        right: 15rem;
+    display: flex;  flex-direction: row;    justify-content: space-evenly; align-items: center;   }
+/* **************************************************************************************************************************************** */
+.menu, .close{display: none; position: fixed; top: 3%; right: 7%;
+    font-size: 1.7rem; cursor: pointer;} .close{right: 5%;}
+/* **************************************************************************************************************************************** */
+/* **************************************************************************************************************************************** */
+@media (max-width:750px) {
+    header{z-index: 5; top: 3%; left: 8%; } header img{width: 10rem;}
+    nav a.infof span{display: none;}
+    nav{
+        position: fixed;
+        top: 5%; right: 10%;
+        width: 100%;    height: 15%;
+        transform: translate(0px, -130%);
+        display: flex; justify-content: center; align-items: flex-end;
+        transition: .4s all ease; z-index: 10;
+    }
+nav.active{transform: translate(0px, 0%);}
+.menu{display: block; transition: 0.8s all ease; z-index: 10;}
+.menu.meu{transform: rotate(90deg) translate(100%); opacity: 0;}
+.close{transition: 0.8s all ease; transform: rotate(90deg) translate(-120%);
+display: block; opacity: 0; } 
+.close.clos{opacity: 1; transform: skew(0,0) translateX(0%); z-index: 10;
+}
+.emailf{top: 55%; right:3%; font-size: 2rem;}
+.rev, #changing{font-size: 7rem; top: 10%; left: 8%;}
+#changing{top: 19%;}
+
+.berber{ top: 27%; left: 8%;
+    width: 85%; height: 58%;
+    overflow: visible; }
+    .berber img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+    .berber:hover img{margin: 0%; width: 100%; height: 100%;}
+    .berber:hover span{ display: none;}
+    .berber section{position: absolute; z-index: 4; font-size: 1.5rem; color: black; opacity: 1;
+        top: 98%; left: -10%;}
+    .berber section h3{font-weight: 800;} 
+    .berber section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+    .berber section h4{display: none;}
+    .berber section h5 { display: none;}
+
+    .tutorials{ top: 100%; left: 8%;
+        width: 85%; height: 58%;
+        overflow: visible; }
+        .tutorials img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+        .tutorials:hover img{margin: 0%; width: 100%; height: 100%;}
+        .tutorials:hover span{ display: none;}
+        .tutorials section{position: absolute; z-index: 4; font-size: 1.5rem; color: black; opacity: 1;
+            top: 98%; left: -10%;}
+        .tutorials section h3{font-weight: 800;} 
+        .tutorials section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+        .tutorials section h4{display: none;}
+        .tutorials section h5 { display: none;}
+
+    .hand{ top: 175%; left: 8%;
+        width: 85%; height: 58%;
+        overflow: visible; }
+        .hand img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+        .hand:hover img{margin: 0%; width: 100%; height: 100%;}
+        .hand:hover span{ display: none;}
+        .hand section{position: absolute; z-index: 4; font-size: 1.5rem; color: black;  opacity: 1;
+            top: 98%; left: -10%;}
+        .hand section h3{font-weight: 800;} 
+        .hand section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+        .hand section h4{display: none;}
+        .hand section h5 { display: none;}
+
+    .book{ top: 250%; left: 8%;
+        width: 85%; height: 58%;
+        overflow: visible; }
+        .book img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+        .book:hover img{margin: 0%; width: 100%; height: 100%;}
+        .book:hover span{ display: none;}
+        .book section{position: absolute; z-index: 4; font-size: 1.5rem; color: black;  opacity: 1;
+            top: 98%; left: -10%;}
+        .book section h3{font-weight: 800;} 
+        .book section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+        .book section h4{display: none;}
+        .book section h5 { display: none;}
+
+    .rotator{ top: 322%; left: 8%;
+        width: 85%; height: 58%;
+        overflow: hidden; }
+        .rotator img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+        .rotator:hover img{margin: 0%; width: 100%; height: 100%;}
+        .rotator:hover span{ display: none;}
+        .rotator section{position: absolute; z-index: 4; font-size: 1.5rem; color: black;   opacity: 1;
+            top: 73%; left: -10%; z-index: 8;}
+        .rotator section h3{font-weight: 800;} 
+        .rotator section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+        .rotator section h4{display: none;}
+        .rotator section h5 { display: none;}
+
+    .future{ top: 390%; left: 8%;
+        width: 85%; height: 58%;
+        overflow: visible; }
+        .future img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+        .future:hover img{margin: 0%; width: 100%; height: 100%;}
+        .future:hover span{ display: none;}
+        .future section{position: absolute; z-index: 4; font-size: 1.5rem; color: black;    opacity: 1;
+            top: 98%; left: -10%;}
+        .future section h3{font-weight: 800;} 
+        .future section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+        .future section h4{display: none;}
+        .future section h5 { display: none;}
+
+    .last{ top: 470%; left: 8%;
+        width: 85%; height: 58%;
+        overflow: visible; }
+        .last img{width: 100%; height: 100%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+        .last:hover img{margin: 0%; width: 100%; height: 100%;}
+        .last:hover span{ display: none;}
+        .last section{position: absolute; z-index: 4; font-size: 1.5rem; color: black;  opacity: 1;
+            top: 98%; left: -10%;}
+        .last section h3{font-weight: 800;} 
+        .last section p{font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;}
+        .last section h4{display: none;}
+        .last section h5 { display: none;}
+
+.touch{top: 552%; left: 8%; font-size: 5rem;}
+.email{top: 570%; left: 8%; font-size: 2.5rem;}
+footer img{top: 580%; left: 40%;}
+footer h3{top: 590%; left: 20%; font-size: 1.5rem;}
+footer .foot{ display: none;}
+
+
+
+}
